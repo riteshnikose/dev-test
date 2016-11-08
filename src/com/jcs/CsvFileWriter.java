@@ -64,7 +64,7 @@ public class CsvFileWriter {
 					fileWriter.flush();
 					fileWriter.close();
 				} catch (IOException e) {
-					System.out.println("Error while flushing/closing fileWriter !!!");
+					System.out.println("Error while closing fileWriter !!!");
 	                e.printStackTrace();
 				}
 				
